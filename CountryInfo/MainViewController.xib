@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,7 +40,7 @@
                 </label>
                 <searchBar contentMode="redraw" searchBarStyle="prominent" translatesAutoresizingMaskIntoConstraints="NO" id="jBg-zO-Wvy">
                     <rect key="frame" x="0.0" y="70" width="320" height="44"/>
-                    <textInputTraits key="textInputTraits"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="whv-B8-jnY"/>
                     </connections>
@@ -49,20 +48,20 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="jBg-zO-Wvy" firstAttribute="top" secondItem="iXe-0L-ye4" secondAttribute="bottom" id="30o-RH-jGp"/>
-                <constraint firstItem="iXe-0L-ye4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CUh-lR-NDa"/>
-                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="leading" secondItem="jBg-zO-Wvy" secondAttribute="leading" id="HdQ-rR-QKL"/>
-                <constraint firstItem="jBg-zO-Wvy" firstAttribute="trailing" secondItem="R9y-ea-rRh" secondAttribute="trailing" id="JeW-Jd-IVt"/>
-                <constraint firstItem="iXe-0L-ye4" firstAttribute="trailing" secondItem="9Mr-Rx-rs9" secondAttribute="trailing" id="N5d-Oq-2Ss"/>
-                <constraint firstItem="jBg-zO-Wvy" firstAttribute="top" secondItem="9Mr-Rx-rs9" secondAttribute="bottom" constant="17" id="OYN-x4-c2W"/>
-                <constraint firstItem="R9y-ea-rRh" firstAttribute="top" secondItem="jBg-zO-Wvy" secondAttribute="bottom" id="Sni-Ls-Gak"/>
-                <constraint firstItem="jBg-zO-Wvy" firstAttribute="leading" secondItem="R9y-ea-rRh" secondAttribute="leading" id="WBR-w5-UNo"/>
-                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="trailing" secondItem="jBg-zO-Wvy" secondAttribute="trailing" id="XaZ-5N-euF"/>
-                <constraint firstItem="iXe-0L-ye4" firstAttribute="leading" secondItem="9Mr-Rx-rs9" secondAttribute="leading" id="YWi-6t-0gY"/>
-                <constraint firstAttribute="trailing" secondItem="iXe-0L-ye4" secondAttribute="trailing" id="nNC-Zi-56P"/>
-                <constraint firstItem="iXe-0L-ye4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vFe-DV-C3d"/>
-                <constraint firstAttribute="bottom" secondItem="R9y-ea-rRh" secondAttribute="bottom" id="yWH-qp-IKe"/>
-                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="32" id="za2-Dy-9wU"/>
+                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="32" id="46c-mB-TtR"/>
+                <constraint firstAttribute="trailing" secondItem="iXe-0L-ye4" secondAttribute="trailing" id="5n1-wn-QX6"/>
+                <constraint firstItem="jBg-zO-Wvy" firstAttribute="top" secondItem="iXe-0L-ye4" secondAttribute="bottom" id="C23-uA-IYi"/>
+                <constraint firstItem="iXe-0L-ye4" firstAttribute="trailing" secondItem="9Mr-Rx-rs9" secondAttribute="trailing" id="DFx-AO-crN"/>
+                <constraint firstAttribute="bottom" secondItem="R9y-ea-rRh" secondAttribute="bottom" id="ESu-Fi-fDf"/>
+                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="trailing" secondItem="jBg-zO-Wvy" secondAttribute="trailing" id="Kf7-hj-xtv"/>
+                <constraint firstItem="iXe-0L-ye4" firstAttribute="leading" secondItem="9Mr-Rx-rs9" secondAttribute="leading" id="Pbw-rN-Ymh"/>
+                <constraint firstItem="jBg-zO-Wvy" firstAttribute="trailing" secondItem="R9y-ea-rRh" secondAttribute="trailing" id="WwO-AT-YjF"/>
+                <constraint firstItem="iXe-0L-ye4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Xhh-fi-1Yu"/>
+                <constraint firstItem="iXe-0L-ye4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bAg-KP-fVF"/>
+                <constraint firstItem="9Mr-Rx-rs9" firstAttribute="leading" secondItem="jBg-zO-Wvy" secondAttribute="leading" id="dXU-bS-Z3G"/>
+                <constraint firstItem="jBg-zO-Wvy" firstAttribute="leading" secondItem="R9y-ea-rRh" secondAttribute="leading" id="oaC-ed-pAw"/>
+                <constraint firstItem="jBg-zO-Wvy" firstAttribute="top" secondItem="9Mr-Rx-rs9" secondAttribute="bottom" constant="17" id="pek-zP-Mol"/>
+                <constraint firstItem="R9y-ea-rRh" firstAttribute="top" secondItem="jBg-zO-Wvy" secondAttribute="bottom" id="uRs-or-EQP"/>
             </constraints>
             <point key="canvasLocation" x="-68" y="-195"/>
         </view>
